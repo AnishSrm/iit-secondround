@@ -1,0 +1,71 @@
+body{
+    background-size: cover;
+}
+
+.heading, .secline{
+    text-align: center;
+}
+.secline{
+    font-size: larger;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+.thirdline{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.content li{
+    padding: 0.7rem;
+    font-size: 2rem;
+   list-style: none;
+   
+}
+.links{
+    text-align: center;
+    padding: 2rem;
+     
+}
+.links a{
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+       
+}
+
+@media only screen and (min-width:1060px) {
+    body{
+        background-repeat: no-repeat;
+    }
+    .content ul{
+        border: inset black 4px;   
+    }
+    .content {
+        margin-top: 3rem;
+       margin-inline:22rem ;
+       background-color: transparent;
+    }
+    
+    
+}
+@media only screen and(max-width:1024px){
+    .content{
+        margin: inline 0;
+        
+    }
+    .content li{
+        padding: 0.7rem;
+        font-size: 1rem;
+       list-style: none;
+       
+    }
+    
+}
+
+@media only screen and(max-width:990px){
+    .links{
+        color: black;
+    font-size: 0.5rem;
+    padding: 1rem;
+    }
+}
